@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Branching under first-passage resetting",
+    "authors": "A Kumar, J Holehouse",
+    "venue": "arXiv preprint arXiv:2605.16693, 2026",
+    "year": 2026,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:8k81kl-MbHgC",
+    "id": "branching-under-first-passage-resetting",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Preprint",
+    "paperUrl": "https://arxiv.org/abs/2605.16693"
+  },
+  {
+    "title": "Dynamic redundancy and mortality in stochastic search",
+    "authors": "S Linn, A Kumar",
+    "venue": "Physical Review Letters 137 (9), 097102, 2026",
+    "year": 2026,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:UeHWp8X0CEIC",
+    "id": "dynamic-redundancy-and-mortality-in-stochastic-search",
+    "categories": [
+      "extremes"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "The origins of transient bimodality",
+    "authors": "K Öcal, A Sukys, A Kumar, J Holehouse",
+    "venue": "arXiv preprint arXiv:2607.16531, 2026",
+    "year": 2026,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:3fE2CSJIrl8C",
+    "id": "the-origins-of-transient-bimodality",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Preprint",
+    "paperUrl": "https://arxiv.org/abs/2607.16531"
+  },
+  {
+    "title": "Chase-escape with conversion as a multiple sclerosis lesion model",
+    "authors": "E Bailey, E Beckman, S Hernández-Torres, M Junge, A Kumar, A Lee, ...",
+    "venue": "arXiv preprint arXiv:2507.21235, 2025",
+    "year": 2025,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:2osOgNQ5qMEC",
+    "id": "chase-escape-with-conversion-as-a-multiple-sclerosis-lesion-model",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Preprint",
+    "paperUrl": "https://arxiv.org/abs/2507.21235"
+  },
+  {
+    "title": "Universal statistics of competition in democratic elections",
+    "authors": "R Pal, A Kumar, MS Santhanam",
+    "venue": "Physical Review Letters 134 (1), 017401, 2025",
+    "year": 2025,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:zYLM7Y9cAGgC",
+    "id": "universal-statistics-of-competition-in-democratic-elections",
+    "categories": [
+      "social"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Voter turnouts govern key electoral statistics",
+    "authors": "R Pal, A Kumar, MS Santhanam",
+    "venue": "arXiv preprint arXiv:2501.01896, 2025",
+    "year": 2025,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:W7OEmFMy1HYC",
+    "id": "voter-turnouts-govern-key-electoral-statistics",
+    "categories": [
+      "social"
+    ],
+    "kind": "Preprint",
+    "paperUrl": "https://arxiv.org/abs/2501.01896"
+  },
+  {
+    "title": "Continuous gated first-passage processes",
+    "authors": "Y Scher, A Kumar, MS Santhanam, S Reuveni",
+    "venue": "Reports on Progress in Physics 87 (10), 108101, 2024",
+    "year": 2024,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:IjCSPb-OGe4C",
+    "id": "continuous-gated-first-passage-processes",
+    "categories": [
+      "observation"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Gated First-Passage Processes",
+    "authors": "A KUMAR",
+    "venue": "",
+    "year": 2024,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:YsMSGLbcyi4C",
+    "id": "gated-first-passage-processes",
+    "categories": [
+      "observation"
+    ],
+    "kind": "Thesis"
+  },
+  {
+    "title": "Depolarization of opinions on social networks through random nudges",
+    "authors": "R Pal, A Kumar, MS Santhanam",
+    "venue": "Physical Review E 108 (3), 034307, 2023",
+    "year": 2023,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:ufrVoPGSRksC",
+    "id": "depolarization-of-opinions-on-social-networks-through-random-nudges",
+    "categories": [
+      "social"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Inference from gated first-passage times",
+    "authors": "A Kumar, Y Scher, S Reuveni, MS Santhanam",
+    "venue": "Physical Review Research 5 (3), L032043, 2023",
+    "year": 2023,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:UebtZRa9Y70C",
+    "id": "inference-from-gated-first-passage-times",
+    "categories": [
+      "observation"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Phase transitions in systems of particles with only hard-core interactions",
+    "authors": "D Dhar, R Rajesh, A Kumar",
+    "venue": "Europhysics Letters 143 (6), 61001, 2023",
+    "year": 2023,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:WF5omc3nYNoC",
+    "id": "phase-transitions-in-systems-of-particles-with-only-hard-core-interactions",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Universal framework for record ages under restart",
+    "authors": "A Kumar, A Pal",
+    "venue": "Physical Review Letters 130 (15), 157101, 2023",
+    "year": 2023,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:Tyk-4Ss8FVUC",
+    "id": "universal-framework-for-record-ages-under-restart",
+    "categories": [
+      "extremes"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "First-passage times of multiple diffusing particles with reversible target-binding kinetics",
+    "authors": "DS Grebenkov, A Kumar",
+    "venue": "Journal of Physics A: Mathematical and Theoretical 55 (32), 325002, 2022",
+    "year": 2022,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:_FxGoFyzp5QC",
+    "id": "first-passage-times-of-multiple-diffusing-particles-with-reversible-target-binding-kinetics",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Reversible target-binding kinetics of multiple impatient particles",
+    "authors": "DS Grebenkov, A Kumar",
+    "venue": "The Journal of Chemical Physics 156 (8), 2022",
+    "year": 2022,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:9yKSN-GCB0IC",
+    "id": "reversible-target-binding-kinetics-of-multiple-impatient-particles",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Chase-Escape percolation on the 2D square lattice",
+    "authors": "A Kumar, P Grassberger, D Dhar",
+    "venue": "Physica A: Statistical Mechanics and its Applications 577, 126072, 2021",
+    "year": 2021,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:u5HHmVD_uO8C",
+    "id": "chase-escape-percolation-on-the-2d-square-lattice",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Evolution of honesty in higher-order social networks",
+    "authors": "A Kumar, S Chowdhary, V Capraro, M Perc",
+    "venue": "Physical Review E 104 (5), 054308, 2021",
+    "year": 2021,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:u-x6o8ySG0sC",
+    "id": "evolution-of-honesty-in-higher-order-social-networks",
+    "categories": [
+      "social"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "First detection of threshold crossing events under intermittent sensing",
+    "authors": "A Kumar, A Zodage, MS Santhanam",
+    "venue": "Physical Review E 104 (5), L052103, 2021",
+    "year": 2021,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:Se3iqnhoufwC",
+    "id": "first-detection-of-threshold-crossing-events-under-intermittent-sensing",
+    "categories": [
+      "observation"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Simplicial contagion in temporal higher-order networks",
+    "authors": "S Chowdhary, A Kumar, G Cencetti, I Iacopini, F Battiston",
+    "venue": "Journal of Physics: Complexity 2 (3), 035019, 2021",
+    "year": 2021,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:d1gkVwhDpl0C",
+    "id": "simplicial-contagion-in-temporal-higher-order-networks",
+    "categories": [
+      "social"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Extreme events in stochastic transport on networks",
+    "authors": "A Kumar, S Kulkarni, MS Santhanam",
+    "venue": "Chaos: An Interdisciplinary Journal of Nonlinear Science 30 (4), 2020",
+    "year": 2020,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:qjMakFHDy7sC",
+    "id": "extreme-events-in-stochastic-transport-on-networks",
+    "categories": [
+      "extremes"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Improved upper bounds on the asymptotic growth velocity of Eden clusters",
+    "authors": "A Kumar, D Dhar",
+    "venue": "Journal of Statistical Physics 180 (1), 710-720, 2020",
+    "year": 2020,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:roLk4NBRz8UC",
+    "id": "improved-upper-bounds-on-the-asymptotic-growth-velocity-of-eden-clusters",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "TASEP speed process: an effective medium approach",
+    "authors": "A Kumar, D Dhar",
+    "venue": "Journal of Statistical Mechanics: Theory and Experiment 2020 (1), 013211, 2020",
+    "year": 2020,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:eQOLeE2rZwMC",
+    "id": "tasep-speed-process-an-effective-medium-approach",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "The evolution of trust and trustworthiness",
+    "authors": "A Kumar, V Capraro, M Perc",
+    "venue": "Journal of the Royal Society Interface 17 (169), 20200491, 2020",
+    "year": 2020,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:LkGwnXOMwfcC",
+    "id": "the-evolution-of-trust-and-trustworthiness",
+    "categories": [
+      "social"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Distinct nodes visited by random walkers on scale-free networks",
+    "authors": "A Kumar, Y Goswami, MS Santhanam",
+    "venue": "Physica A: Statistical Mechanics and its Applications 532, 121875, 2019",
+    "year": 2019,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:Y0pCki6q_DkC",
+    "id": "distinct-nodes-visited-by-random-walkers-on-scale-free-networks",
+    "categories": [
+      "extremes"
+    ],
+    "kind": "Journal article"
+  },
+  {
+    "title": "Stochastic Evolution in Models of Statistical Physics",
+    "authors": "A KUMAR",
+    "venue": "",
+    "year": 2019,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:5nxA0vEk-isC",
+    "id": "stochastic-evolution-in-models-of-statistical-physics",
+    "categories": [
+      "stochastic"
+    ],
+    "kind": "Thesis"
+  },
+  {
+    "title": "Record statistics of equities and market indices",
+    "authors": "MS Santhanam, A Kumar",
+    "venue": "Econophysics and Sociophysics: Recent Progress and Future Directions, 103-112, 2017",
+    "year": 2017,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=KZC2cBMAAAAJ&pagesize=100&citation_for_view=KZC2cBMAAAAJ:hqOjcs7Dif8C",
+    "id": "record-statistics-of-equities-and-market-indices",
+    "categories": [
+      "extremes"
+    ],
+    "kind": "Book chapter"
+  }
+]
