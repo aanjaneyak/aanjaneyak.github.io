@@ -1,6 +1,6 @@
 # Aanjaneya Kumar — portfolio
 
-Three independently rendered static pages: Home, Research, and Publications. Restrained purple accents and sans-serif typography, responsive layouts, accessible category tabs, and a keyboard-accessible fuzzy search dialog (⌘K / Ctrl+K). Built with React, Vinext and the supplied Base UI components.
+Three independently rendered static pages: Home, Research, and Publications. Restrained purple accents and self-hosted Libertinus Serif typography, responsive layouts, accessible category tabs, and a keyboard-accessible fuzzy search dialog (⌘K / Ctrl+K). Built with React, Vinext and the supplied Base UI components.
 
 ## Development
 
