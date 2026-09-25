@@ -1,43 +1,26 @@
-# Aanjaneya Kumar — portfolio
+# Aanjaneya Kumar — standalone portfolio
 
-Three independently rendered static pages: Home, Publications, and Contact. Restrained purple accents and self-hosted Libertinus Serif typography, responsive layouts, accessible publication category tabs. Built with React, Vinext and the supplied Base UI components.
+The current portfolio recreated in plain HTML, CSS, and JavaScript, with the same content, Libertinus fonts, layout, publication categories, mobile navigation, and email-copy button. No frameworks, dependencies, build step, or CDN.
 
-## Development
+## Open locally
 
-Requires Node 22.13+.
+Open `index.html` directly, or serve this folder with any static web server. For example, run `python3 -m http.server 4174` in this folder and visit `http://localhost:4174`.
 
-```sh
-npm ci
-npm run dev
-```
+## Edit
 
-## Validate and build
+- `index.html`: home/about text.
+- `publications/index.html`: all 25 publications, already rendered for search engines and visitors without JavaScript. Each article has a `data-categories` attribute. When adding a publication, update the total and category counts in the HTML and the archive date.
+- `contact/index.html`: email and academic profiles.
+- `assets/styles.css`: shared design and responsive styles.
+- `assets/site.js`: publication filtering, keyboard navigation, mobile menu, and email copying.
+- `assets/fonts/`: self-hosted Libertinus fonts and their license.
 
-```sh
-npm run typecheck
-npm test
-npm run build
-npm run check:static
-```
+Navigation and footer markup are shared by convention; edit them in all three HTML files. The copy button uses the browser clipboard API, which works on HTTPS and localhost. If copying is unavailable, it displays a message and the email remains selectable.
 
-The deployable website is `dist/client`. The finalizer produces directory index pages, a 404 page, `.nojekyll`, and robots.txt. Set `SITE_URL` to the full public website URL (including a repository subpath when applicable) to generate canonical URLs and sitemap.xml. Set `BASE_PATH` to the repository path, such as `/portfolio`, for a GitHub project site. Leave it empty for a root site or custom domain.
+## GitHub Pages
 
-```sh
-BASE_PATH=/portfolio SITE_URL=https://YOUR-ACCOUNT.github.io/portfolio npm run build
-BASE_PATH=/portfolio npm run check:static
-```
+This repository contains the standalone site at its root, including `.nojekyll`. GitHub Pages publishes directly from `main` and `/ (root)`. The `CNAME` file preserves the custom domain `complexsystems.in`. No build workflow is required.
 
-## GitHub Pages deployment
+Relative links support both a user site such as `aanjaneyak.github.io` and a project subdirectory. No domain or deployment path is hardcoded. The HTML includes page titles, descriptions, Open Graph metadata, and Person structured data. All content is available without JavaScript; category filtering requires JavaScript.
 
-Push this folder to your GitHub repository's `main` branch and select **Settings → Pages → Source → GitHub Actions**. The included workflow builds, validates, and deploys the static output. It automatically reads the correct base path and URL from GitHub Pages, including custom-domain configurations. No backend or special redirect rules are needed. Repository: https://github.com/ritams/aanj-portfolio
-
-GitHub Pages: https://ritampal.com/aanj-portfolio/
-
-## Content
-
-- `lib/content.ts`: biography and social links.
-- `data/publications.json`: all 25 entries returned by the supplied Google Scholar profile on 2026-09-07, with titles, authors, venues, years, and original citation URLs. The one author list abbreviated by Scholar remains abbreviated. The archive intentionally follows Scholar rather than counting duplicate preprint/journal versions from ResearchGate.
-- `docs/sources.md`: provenance and content notes.
-- `app/globals.css`: shared visual design and responsive rules.
-
-To update the archive, edit the JSON and keep each `id` stable so existing links remain valid. Topics are editorial categories and can overlap. Nothing is fetched from Scholar at runtime, so filtering need no third-party service.
+Updates pushed to `main` are published by GitHub Pages.
