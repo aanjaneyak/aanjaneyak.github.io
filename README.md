@@ -1,6 +1,6 @@
 # Aanjaneya Kumar — portfolio
 
-Three independently rendered static pages: Home, Research, and Publications. Restrained purple accents and self-hosted Libertinus Serif typography, responsive layouts, accessible category tabs, and a keyboard-accessible fuzzy search dialog (⌘K / Ctrl+K). Built with React, Vinext and the supplied Base UI components.
+Three independently rendered static pages: Home, Publications, and Contact. Restrained purple accents and self-hosted Libertinus Serif typography, responsive layouts, accessible publication category tabs. Built with React, Vinext and the supplied Base UI components.
 
 ## Development
 
@@ -35,9 +35,9 @@ GitHub Pages: https://ritampal.com/aanj-portfolio/
 
 ## Content
 
-- `lib/content.ts`: biography, research directions, social links.
+- `lib/content.ts`: biography and social links.
 - `data/publications.json`: all 25 entries returned by the supplied Google Scholar profile on 2026-09-07, with titles, authors, venues, years, and original citation URLs. The one author list abbreviated by Scholar remains abbreviated. The archive intentionally follows Scholar rather than counting duplicate preprint/journal versions from ResearchGate.
 - `docs/sources.md`: provenance and content notes.
 - `app/globals.css`: shared visual design and responsive rules.
 
-To update the archive, edit the JSON and keep each `id` stable so existing links remain valid. Topics are editorial categories and can overlap. Nothing is fetched from Scholar at runtime, so search and filtering need no third-party service.
+To update the archive, edit the JSON and keep each `id` stable so existing links remain valid. Topics are editorial categories and can overlap. Nothing is fetched from Scholar at runtime, so filtering need no third-party service.

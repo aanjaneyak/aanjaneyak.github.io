@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: '%s — Aanjaneya Kumar',
   },
   description:
-    'Aanjaneya Kumar, Complexity Postdoctoral Fellow at the Santa Fe Institute. Research on stochastic processes, biological and social dynamics, extreme events, and inference.',
+    'Aanjaneya Kumar, Omidyar Postdoctoral Fellow at the Santa Fe Institute. Research on stochastic processes, biological and social dynamics, extreme events, and inference.',
   openGraph: {
     title: 'Aanjaneya Kumar',
     description:
@@ -35,13 +35,14 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Person',
               name: 'Aanjaneya Kumar',
-              jobTitle: 'Complexity Postdoctoral Fellow',
+              jobTitle: 'Omidyar Postdoctoral Fellow',
               affiliation: {
                 '@type': 'Organization',
                 name: 'Santa Fe Institute',
               },
               email: 'aanjaneya@santafe.edu',
               sameAs: [
+                'https://orcid.org/0000-0003-1212-1128',
                 'https://www.linkedin.com/in/aanjaneyak/',
                 'https://scholar.google.com/citations?user=KZC2cBMAAAAJ&hl=en',
                 'https://www.researchgate.net/profile/Aanjaneya-Kumar',

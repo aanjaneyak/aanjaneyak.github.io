@@ -1,9 +1,8 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
-import { Search, ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { publications, scholar } from '@/lib/content';
-import { fuzzyScore } from '@/lib/search';
 const categories = [
   { id: 'all', label: 'All publications' },
   { id: 'stochastic', label: 'Stochastic dynamics' },
@@ -13,7 +12,6 @@ const categories = [
 ];
 export function PublicationArchive() {
   const [category, setCategory] = useState('all');
-  const [query, setQuery] = useState('');
   useEffect(() => {
     const sync = () => {
       const param = new URLSearchParams(window.location.search).get('topic');
@@ -24,7 +22,6 @@ export function PublicationArchive() {
             ? param!
             : 'all',
       );
-      setQuery('');
       if (window.location.hash)
         requestAnimationFrame(() =>
           document
@@ -43,22 +40,9 @@ export function PublicationArchive() {
   const visible = useMemo(
     () =>
       publications.filter(
-        (p) =>
-          (category === 'all' || p.categories.includes(category)) &&
-          fuzzyScore(
-            query,
-            p.title +
-              ' ' +
-              p.authors +
-              ' ' +
-              p.venue +
-              ' ' +
-              p.year +
-              ' ' +
-              p.kind,
-          ) > 0,
+        (p) => category === 'all' || p.categories.includes(category),
       ),
-    [category, query],
+    [category],
   );
   const years = [...new Set(visible.map((p) => p.year))];
   function changeCategory(value: unknown) {
@@ -73,24 +57,6 @@ export function PublicationArchive() {
   return (
     <>
       <div className="pub-toolbar">
-        <div className="search-field">
-          <Search size={19} />
-          <input
-            aria-label="Search publications"
-            placeholder="Search by title, author, keyword, or year…"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-          {query && (
-            <button
-              className="clear-search"
-              aria-label="Clear publication search"
-              onClick={() => setQuery('')}
-            >
-              ×
-            </button>
-          )}
-        </div>
         <output>
           {visible.length} of {publications.length} publications
         </output>
@@ -189,15 +155,14 @@ export function PublicationArchive() {
               ) : (
                 <div className="empty">
                   <h3>No matching publications</h3>
-                  <p>Try another search term or research direction.</p>
+                  <p>Select another publication category.</p>
                   <button
                     className="text-link"
                     onClick={() => {
-                      setQuery('');
                       changeCategory('all');
                     }}
                   >
-                    Reset search and filters
+                    Show all publications
                   </button>
                 </div>
               ))}

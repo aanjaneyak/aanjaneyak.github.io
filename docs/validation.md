@@ -17,3 +17,9 @@ Passed:
 The preview uses the generated static files, not the development server. The GitHub Pages workflow runs the production build, automated checks, and deployment on pushes to main.
 
 Lint excludes the supplied, unmodified component catalog and mobile hook. Publication data is a dated snapshot, not a live Scholar sync. External profiles may enforce their own login or anti-bot restrictions.
+
+## September 25 revision
+
+Removed site-wide and publication search, the Research route, and the homepage research cards. Contact now has its own static page, with email copying and ORCID. Updated the fellowship title to Omidyar Postdoctoral Fellow, changed body and secondary text to black, and pointed the SFI links to the institute homepage.
+
+Passed TypeScript checks, publication data tests, production export at `/aanj-portfolio`, and generated-page/link/asset checks for Home, Publications, and Contact. Also verified no search inputs or research links remain, the retired research HTML is absent, and the ORCID and SFI destinations are correct. The earlier search/research checks above describe the previous version.

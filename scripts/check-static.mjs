@@ -1,7 +1,7 @@
 import { readFile, access } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const base = process.env.BASE_PATH || '';
-for (const route of ['', 'research/', 'publications/']) {
+for (const route of ['', 'contact/', 'publications/']) {
   const html = await readFile(`dist/client/${route}index.html`, 'utf8');
   assert.match(html, /<h1/);
   assert.match(html, /<meta name="description"/);

@@ -28,7 +28,7 @@ async function prefixAssets(directory) {
   }
 }
 if (base) await prefixAssets(out);
-for (const route of ['research', 'publications']) {
+for (const route of ['contact', 'publications']) {
   const source = `${out}/${route}.html`;
   try {
     await access(source);
@@ -38,7 +38,7 @@ for (const route of ['research', 'publications']) {
     await access(`${out}/${route}/index.html`);
   }
 }
-for (const route of ['', 'research/', 'publications/']) {
+for (const route of ['', 'contact/', 'publications/']) {
   const file = `${out}/${route}index.html`;
   let html = await readFile(file, 'utf8');
   if (origin) {
@@ -63,10 +63,10 @@ await writeFile(
 if (origin)
   await writeFile(
     `${out}/sitemap.xml`,
-    `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/', '/research/', '/publications/'].map((path) => `<url><loc>${origin}${path}</loc></url>`).join('')}</urlset>`,
+    `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/', '/contact/', '/publications/'].map((path) => `<url><loc>${origin}${path}</loc></url>`).join('')}</urlset>`,
   );
 await writeFile(
   `${out}/404.html`,
-  `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found — Aanjaneya Kumar</title><style>@font-face{font-family:Libertinus;src:url(${base}/fonts/libertinus-serif-regular.ttf) format('truetype');font-display:swap}</style><body style="font:18px/1.7 Libertinus,Georgia,serif;max-width:600px;margin:15vh auto;padding:24px;color:#29242e;background:#fdfcfe"><p style="color:#704298">404</p><h1>Page not found</h1><p>The requested page could not be found.</p><a href="${base}/" style="color:#704298">Return to the homepage →</a></body></html>`,
+  `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found — Aanjaneya Kumar</title><style>@font-face{font-family:Libertinus;src:url(${base}/fonts/libertinus-serif-regular.ttf) format('truetype');font-display:swap}</style><body style="font:18px/1.7 Libertinus,Georgia,serif;max-width:600px;margin:15vh auto;padding:24px;color:#000;background:#fdfcfe"><p style="color:#704298">404</p><h1>Page not found</h1><p>The requested page could not be found.</p><a href="${base}/" style="color:#704298">Return to the homepage →</a></body></html>`,
 );
 console.log('Static pages prepared for GitHub Pages.');

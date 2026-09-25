@@ -28,7 +28,7 @@
   --color-popover: var(--background);
   --color-popover-foreground: var(--foreground);
   --color-muted: #f3f0f6;
-  --color-muted-foreground: #69636f;
+  --color-muted-foreground: #000;
   --color-border: #e1dce6;
   --color-primary: #704298;
   --color-primary-foreground: #fff;
@@ -36,9 +36,9 @@
 }
 :root {
   --background: #fdfcfe;
-  --foreground: #29242e;
+  --foreground: #000;
   --purple: #704298;
-  --muted: #69636f;
+  --muted: #000;
   --line: #e4dfe8;
   --font-sans: 'Libertinus Serif', Georgia, serif;
   color-scheme: light;
@@ -1085,4 +1085,28 @@ h3 {
   .page-intro {
     padding-top: 35px;
   }
+}
+
+/* Plain black text; purple remains reserved for links and selected controls. */
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  width: 100%;
+}
+.site-header,
+.site-footer {
+  width: 100%;
+}
+.contact-page {
+  padding-bottom: 55px;
+}
+.contact-page .contact-copy {
+  margin-bottom: 30px;
+}
+.contact-page .socials {
+  font-size: 16px;
 }
